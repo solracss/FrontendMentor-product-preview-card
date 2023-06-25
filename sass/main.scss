@@ -1,0 +1,13 @@
+@use "./reset" as *;
+@use "./colors" as *;
+@use "./typography" as *;
+
+body {
+	padding: 1rem;
+	min-height: 100vh;
+	background-color: $cream;
+	font-family: $ff-base;
+	font-weight: $fw-regular;
+	color: $gray;
+	font-size: rem(16px);
+}
