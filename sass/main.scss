@@ -3,11 +3,97 @@
 @use "./typography" as *;
 
 body {
-	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.75rem 1rem;
 	min-height: 100vh;
 	background-color: $cream;
 	font-family: $ff-base;
 	font-weight: $fw-regular;
+	font-size: rem(14px);
 	color: $gray;
-	font-size: rem(16px);
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product {
+	background-color: $product-bg;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.product-content {
+	padding: 21px 24px 24px;
+}
+
+.txt-upper {
+	text-transform: uppercase;
+}
+
+.product-category {
+	font-size: rem(12px);
+	letter-spacing: rem(5px);
+}
+
+.product-title {
+	margin-top: 12px;
+	font-family: $ff-elegant;
+	color: $gunmetal;
+	font-size: 2rem;
+	font-weight: $fw-bold;
+	line-height: 32px;
+}
+
+.product-description {
+	margin-top: 16px;
+	line-height: 23px;
+}
+
+.product-price {
+	align-items: center;
+	margin-top: 24px;
+	gap: rem(19px);
+}
+
+.add-to-cart-btn {
+	margin-top: 20px;
+}
+
+.price-new {
+	font-family: $ff-elegant;
+	font-size: 2rem;
+	font-weight: $fw-bold;
+	color: $deep-aquamarine;
+	line-height: 32px;
+}
+
+.price-old {
+	font-size: rem(13px);
+}
+
+s:before,
+s:after {
+	content: "";
+	clip-path: inset(100%);
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap; /* added line */
+	width: 1px;
+}
+
+.add-to-cart-btn {
+	justify-content: center;
+	gap: 12px;
+	width: 100%;
+	padding: 16px 0;
+	border-radius: 8px;
+	background-color: $deep-aquamarine;
+	color: $product-bg;
+	font-weight: $fw-bold;
 }
