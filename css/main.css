@@ -94,6 +94,7 @@ body {
 .product-category {
     font-size: 0.75rem;
     letter-spacing: 0.3125rem;
+    line-height: 12px;
 }
 
 .product-title {
@@ -158,4 +159,30 @@ s:after {
 }
 .add-to-cart-btn:hover {
     background-color: #1a4032;
+}
+
+@media (min-width: 630px) {
+    .product {
+        max-width: 600px;
+        display: flex;
+    }
+    .product-image {
+        width: 50%;
+    }
+    .product-content {
+        width: 50%;
+        padding: 32px;
+    }
+    .product-title {
+        margin-top: 20px;
+    }
+    .product-description {
+        margin-top: 24px;
+    }
+    .product-price {
+        margin-top: 29px;
+    }
+    .add-to-cart-btn {
+        margin-top: 30px;
+    }
 }/*# sourceMappingURL=main.css.map */

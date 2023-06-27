@@ -37,6 +37,7 @@ body {
 .product-category {
 	font-size: rem(12px);
 	letter-spacing: rem(5px);
+	line-height: 12px;
 }
 
 .product-title {
@@ -99,5 +100,36 @@ s:after {
 	transition: background-color 0.3s;
 	&:hover {
 		background-color: $deep-aquamarine-hover;
+	}
+}
+
+@media (min-width: 630px) {
+	.product {
+		max-width: 600px;
+		display: flex;
+	}
+	.product-image {
+		width: 50%;
+	}
+
+	.product-content {
+		width: 50%;
+		padding: 32px;
+	}
+
+	.product-title {
+		margin-top: 20px;
+	}
+
+	.product-description {
+		margin-top: 24px;
+	}
+
+	.product-price {
+		margin-top: 29px;
+	}
+
+	.add-to-cart-btn {
+		margin-top: 30px;
 	}
 }
