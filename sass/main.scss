@@ -96,4 +96,8 @@ s:after {
 	background-color: $deep-aquamarine;
 	color: $product-bg;
 	font-weight: $fw-bold;
+	transition: background-color 0.3s;
+	&:hover {
+		background-color: $deep-aquamarine-hover;
+	}
 }

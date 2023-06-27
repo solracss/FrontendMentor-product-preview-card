@@ -154,4 +154,8 @@ s:after {
     background-color: #3d8168;
     color: #fff;
     font-weight: 700;
+    transition: background-color 0.3s;
+}
+.add-to-cart-btn:hover {
+    background-color: #1a4032;
 }/*# sourceMappingURL=main.css.map */
