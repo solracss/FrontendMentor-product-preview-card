@@ -29,6 +29,7 @@ Users should be able to:
 ![Mobile](https://i.imgur.com/qxdI79n.png)
 
 </details>
+
 ### Links
 
 - Live Site URL: [Live](https://solracss.github.io/FrontendMentor-product-preview-card/)
